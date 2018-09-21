@@ -18,4 +18,3 @@ print(body)
 connection.request('GET','/babo.html')
 response = connection.getresponse()
 print(response.status, response.reason) #404 Not Found
-print(response.status, response.reason)#sss
